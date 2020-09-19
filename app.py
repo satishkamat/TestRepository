@@ -26,5 +26,5 @@ api.add_resource(StoreList,"/stores")
 api.add_resource(UserRegister,"/register")
 
 
-    db.init_app(app)
-    app.run(port=5000 , debug=True)
+db.init_app(app)
+app.run(port=5000 , debug=True)
